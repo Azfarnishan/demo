@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.mt{
+    margin-top: 0 !important;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#header{
+    background:#ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.logo{
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+}
+.menu{
+    width: 1000px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    padding-left: 20px;
+    color: #506a85;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+#banner_part{
+    padding-top: 280px ;
+    padding-bottom: 280px ;
+    background: url(../images/-Reen.png);
+    width: 100%;
+    text-align: center;
+}
+.banner h1{
+    color: #fff;
+    font-size: 78px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.banner p{
+    color: #a3b1bf;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 25px;
+    padding-bottom: 70px;
+}
+.banner button{
+    padding: 25px 70px;
+    background-color: #00bc9c;
+    border: none;
+    border-radius: 5px;
+}
+.banner button h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+#nxt_part{
+    padding: 130px 0;
+}
+.responsive{
+    background-color: #fff;
+    text-align: center;
+}
+.responsive h1{
+    color: #506a85;
+    font-size: 44px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.responsive p{
+    color: #506a85;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 30px;
+    padding-bottom: 75px;
+}
+.head{
+    width: 370px;
+    margin-right: 30px;
+    float: left;
+}
+.image{
+    width: 50px;
+    float: left;
+    margin-right: 30px;
+}
+.add{
+    width: 40px;
+}
+.head_text{
+    width: 270px;
+    float: left;
+}
+.head h2{
+    color: #506a85;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 35px;
+}
+.head p{
+    color: #73879c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 35px;
+    line-height: 25px;
+}
+#third_part{
+    padding: 125px 0;
+    background:#f2f5f7;
+}
+.third_text{
+    text-align: center;
+}
+.third_text h1{
+    color: #506a85;
+    font-size: 44px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 30px;
+}
+.third_text p{
+    color: #73879c;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 60px;
+}
+.third_image{
+    width: 560px;
+    background: #fff;
+    padding-bottom: 30px;
+    float: left;
+    margin-right: 30px;
+}
+.third_image img{
+    width: 100%;
+    padding-bottom: 35px;
+}
+.image_text{
+    text-align: center;
+}
+.image_text h2{
+    color: #506a85;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom:30px;
+}
+.image_text p{
+    color: #73879c;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.demo_image{
+    width: 268px;
+    margin-right: 30px;
+    margin-top: 70px;
+    float: left;
+}
+#fourth_part{
+    padding: 125px 0;
+    background: #fff;
+}
+.fourth{
+    text-align: center;
+}
+.fourth h1{
+    color: #506a85;
+    font-size: 44px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.fourth p{
+    color: #73879c;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 35px;
+    padding: 45px 0;
+
+}
+.fourth button{
+    padding: 20px;
+    background-color: #00bc9c;
+    border: none;
+    border-radius: 5px;
+}
+.fourth button h1{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+#fifth_part{
+    padding: 72px 0;
+    background: #2f4052;
+}
+.about_part{
+    width: 270px;
+    margin-right: 30px;
+    float: left;
+}
+.about_head h1{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    
+}
+.about_logo{
+    width: 130px;
+    margin: 25px 0;
+}
+.about_p p{
+    color: #8c9aa8;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+
+}
+.about_head p{
+    color: #8c9aa8;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+    padding-top: 25px;
+
+}
+.about_p h6{
+    color: #8c9aa8;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 24px;
+}
+.about_p h6 i{
+    padding-left: 5px;
+}
+.about_image{
+    width: 125px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    float: left;
+}
+.about_image img{
+    width: 100%;
+}
+.nxt_p p{
+    color: #8c9aa8;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+    padding-top: 24px;
+}
+.nxt_p p i{
+    padding-right: 5px;
+}
+
+.button{
+    width: 270px;
+    background: #4e5c6c;
+    border: none;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+.button p{
+    color: #8c9aa8;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 15px 10px;
+    float: left;
+}
+.button button{
+    width: 95px;
+    background: #00bc9c;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    float: left;
+   
+}
+.button button h1{
+    color: #eef1f5;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+}
+#last_part{
+    padding: 30px 0;
+    background: #283645;
+}
+.last_text p{
+    color: #8c9aa8;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-seri
+}
+.last_menu{
+    text-align: right;
+}
+.last_menu p{
+    color: #8c9aa8;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-seri
+
+}
